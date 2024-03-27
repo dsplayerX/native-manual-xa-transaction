@@ -1,0 +1,15 @@
+2024-03-26 10:50:10.902185+05:30 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Transaction "XID|1|AA|AQ" not found; SQL statement:
+COMMIT TRANSACTION "XID|1|AA|AQ" [90129-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:644)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.engine.SessionLocal.setPreparedTransaction(SessionLocal.java:1174)
+	at org.h2.command.dml.TransactionCommand.update(TransactionCommand.java:70)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:262)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.jdbcx.JdbcXAConnection.commit(JdbcXAConnection.java:347)
+	at ManualPreparedXATransaction.main(ManualPreparedXATransaction.java:39)

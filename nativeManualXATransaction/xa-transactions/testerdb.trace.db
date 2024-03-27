@@ -1,0 +1,63 @@
+2024-03-26 12:00:46.620252+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Transaction "XID|1|AA|AQ" not found; SQL statement:
+COMMIT TRANSACTION "XID|1|AA|AQ" [90129-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:644)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.engine.SessionLocal.setPreparedTransaction(SessionLocal.java:1174)
+	at org.h2.command.dml.TransactionCommand.update(TransactionCommand.java:70)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:262)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.jdbcx.JdbcXAConnection.commit(JdbcXAConnection.java:347)
+	at ManualPreparedXATransaction.main(ManualPreparedXATransaction.java:39)
+2024-03-26 12:01:55.663447+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEST" already exists; SQL statement:
+create table test(a int primary key, b varchar(128)) [42101-224]
+2024-03-26 14:07:24.673588+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Transaction "XID|1|AA|AQ" not found; SQL statement:
+COMMIT TRANSACTION "XID|1|AA|AQ" [90129-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:644)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.engine.SessionLocal.setPreparedTransaction(SessionLocal.java:1174)
+	at org.h2.command.dml.TransactionCommand.update(TransactionCommand.java:70)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:262)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.jdbcx.JdbcXAConnection.commit(JdbcXAConnection.java:347)
+	at ManualPreparedXATransaction.main(ManualPreparedXATransaction.java:40)
+2024-03-26 14:27:12.749010+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Transaction "XID|1|AA|AQ" not found; SQL statement:
+COMMIT TRANSACTION "XID|1|AA|AQ" [90129-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:644)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.engine.SessionLocal.setPreparedTransaction(SessionLocal.java:1174)
+	at org.h2.command.dml.TransactionCommand.update(TransactionCommand.java:70)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:262)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.jdbcx.JdbcXAConnection.commit(JdbcXAConnection.java:347)
+	at ManualPreparedXATransaction.main(ManualPreparedXATransaction.java:40)
+2024-03-26 14:27:26.969798+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Transaction "XID|1|AA|AQ" not found; SQL statement:
+COMMIT TRANSACTION "XID|1|AA|AQ" [90129-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:644)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.engine.SessionLocal.setPreparedTransaction(SessionLocal.java:1174)
+	at org.h2.command.dml.TransactionCommand.update(TransactionCommand.java:70)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:256)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:262)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:231)
+	at org.h2.jdbcx.JdbcXAConnection.commit(JdbcXAConnection.java:347)
+	at ManualPreparedXATransaction.main(ManualPreparedXATransaction.java:40)
