@@ -6,3 +6,18 @@ distribution = "2201.8.6"
 
 [build-options]
 observabilityIncluded = true
+
+[[platform.java17.dependency]]
+groupId="org.apache.derby"
+artifactId="derbytools"
+version="10.12.1.1"
+
+[[platform.java17.dependency]]
+groupId="org.apache.derby"
+artifactId="derbyclient"
+version="10.12.1.1"
+
+[[platform.java17.dependency]]
+groupId="org.apache.derby"
+artifactId="derby"
+version="10.12.1.1"

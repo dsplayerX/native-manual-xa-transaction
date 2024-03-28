@@ -1,11 +1,24 @@
 ----------------------------------------------------------------
-Wed Mar 27 15:08:29 IST 2024:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-018e-7f46-79de-00000ee8d460 
-on database directory C:\src\project75\native-manual-xa-transaction\mydatabase with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
-Loaded from file:/C:/Users/DuminduSameendra/.m2/repository/org/apache/derby/derby/10.15.2.0/derby-10.15.2.0.jar
+Thu Mar 28 15:19:45 IST 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-018e-8477-2683-00000ef8ed78 
+on database directory C:\src\project75\xa-transaction-recovery-test\testdb1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Users/DuminduSameendra/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
 java.vendor=Eclipse Adoptium
 java.runtime.version=17.0.7+7
-user.dir=C:\src\project75\native-manual-xa-transaction
+user.dir=C:\src\project75\xa-transaction-recovery-test\nativeManualXATransaction
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Mar 28 15:19:46 IST 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance 45b300a8-018e-8477-2683-00000ef8ed78 
+on database directory C:\src\project75\xa-transaction-recovery-test\testdb2 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Users/DuminduSameendra/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.7+7
+user.dir=C:\src\project75\xa-transaction-recovery-test\nativeManualXATransaction
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0
